@@ -7,24 +7,30 @@ body {
   padding: 0;
 }
 
+h2 {
+  background-color: darkred;
+  size-adjust: initial; 
+  
+}
+
 h1 {
   font-family: 'Work Sans', sans-serif;
-  font-weight: 300;
+  font-weight: 250;
   margin: 0;
   position: absolute;
-  font-size: 50px;
-  top: 50%;
-  left: 50%;
+  font-size: 25px;
+  top: 3%;
+  left: 3%;
   transform: translateX(-50%) translateY(-50%);
 }
 
 a {
-  color: rgb(217, 245, 61);
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
 a:hover {
-  background-color: rgb(33, 20, 49);
+  background-color: transparent;
 }
 
 #contenido {
@@ -46,7 +52,7 @@ a:hover {
 
 .contenedor-imagen {
   border-style: solid;
-  border-color: rgb(0, 0, 0);
+  border-color: rgb(111, 82, 82);
   border-width: 1px;
   width: 30vw;
   height: 30vw;
