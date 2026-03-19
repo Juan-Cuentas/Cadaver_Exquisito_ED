@@ -2,9 +2,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&display=swap');
 
 body {
-  background-color: #000000;
+  background-color: darkred;
   margin: 0;
   padding: 0;
+}
+header {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+ margin-right: 24px;
+   width: 100vw;
+}
+
+
+header .menu-sup-cen .menunav > li {
+    display: inline-block;
+    vertical-align: middle;
+  
+}
+
+.menu_container{
+  margin: 15px;
+    position: relative;
+    display: flex;
+}
+
+#inicio{
+ display: flex;
+}
+
+#menu-derecha{
+    position: absolute;
+    right: 4.4px;
+}
+
+ul {
+display: block;
+margin-block-start: 2px;
+margin-block-end: 2px;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
 }
 
 h2 {
