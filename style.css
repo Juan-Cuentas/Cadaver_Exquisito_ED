@@ -108,10 +108,101 @@ button:hover {
 
 #Titulodelapag {
   color: beige;
-  position: absolute;
+  position: fixed;
   left: 44%;
   top: -5px;
   white-space: nowrap;
   font-size: 18px;
 
+}
+
+#Textocapitulos {
+  width: 45%;
+  height: 100%;
+  margin: 0;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  white-space: pre-line;
+  background-color: beige;
+  text-justify: auto;
+  text-align:center
+
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.contenedor {
+  text-align: center;
+}
+
+.rueda {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 5px solid black;
+
+  background: repeating-conic-gradient(
+    #111 0deg 8.571deg,
+    #eee 8.571deg 17.142deg
+  );
+
+    transition: transform 0.2s;
+
+}
+
+.puntero {
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 20px solid black;
+  margin: 0 auto;
+}
+
+input[type="range"] {
+  width: 300px;
+}
+
+.caja {
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+  background-color: beige;
+  padding: 10px;
+  overflow-y: scroll;
+  white-space: nowrap;
+  white-space: pre-line;
+}
+
+.lista {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.lista li {
+  margin: 3px 0;
+}
+
+.lista a {
+  text-decoration: none;
+  color: black;
+}
+
+.lista a:hover {
+  text-decoration: underline;
+}
+
+.titulo {
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid black;
 }
