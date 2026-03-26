@@ -15,6 +15,9 @@ header {
    width: 100vw;
 }
 
+#Indice{
+  margin-right: 8px;
+}
 
 header .menu-sup-cen .menunav > li {
     display: inline-block;
